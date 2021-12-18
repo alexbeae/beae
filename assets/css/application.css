@@ -226,7 +226,7 @@ main::after {
 
 @font-face {
     font-family: "ShopifySans";
-    src: url("https://cdn.shopify.comhttps://cdn.shopify.com/static/fonts/ShopifySans--light.woff2") format("woff2");
+    src: url("https://cdn.shopify.com/static/fonts/ShopifySans--light.woff2") format("woff2");
     font-style: normal;
     font-weight: 300;
     font-display: swap
@@ -234,7 +234,7 @@ main::after {
 
 @font-face {
     font-family: "ShopifySans";
-    src: url("https://cdn.shopify.comhttps://cdn.shopify.com/static/fonts/ShopifySans--regular.woff2") format("woff2");
+    src: url("https://cdn.shopify.com/static/fonts/ShopifySans--regular.woff2") format("woff2");
     font-style: normal;
     font-weight: 400;
     font-display: swap
@@ -242,7 +242,7 @@ main::after {
 
 @font-face {
     font-family: "ShopifySans";
-    src: url("https://cdn.shopify.comhttps://cdn.shopify.com/static/fonts/ShopifySans--medium.woff2") format("woff2");
+    src: url("https://cdn.shopify.com/static/fonts/ShopifySans--medium.woff2") format("woff2");
     font-style: normal;
     font-weight: 500;
     font-display: swap
