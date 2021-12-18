@@ -3551,7 +3551,8 @@ body:not(.page--has-secondary-nav) .site-nav-container.is-sticky {
 .marketing-nav__button {
     margin-left: 15px;
     padding-left: 1.1875em;
-    padding-right: 1.1875em
+    padding-right: 1.1875em;
+    margin-top: 20px;
 }
 
 .marketing-nav--skin-dark .marketing-nav__button:not([class^='marketing-button--skin-']) {
