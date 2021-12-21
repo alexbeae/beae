@@ -602,8 +602,8 @@ a:active .pillar-nav__link-icon {
 }
 
 .pillar-section__wrapper {
-    padding-top: 32px;
-    padding-bottom: 32px
+    /* padding-top: 32px; */
+    padding-bottom: 32px;
 }
 
 .pillar-section__content-container {
