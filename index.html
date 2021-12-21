@@ -65,6 +65,7 @@
     </script>
     <link rel="stylesheet" media="all" href="assets/css/application.css?vfvf">
     <link rel="stylesheet" media="screen" href="assets/css/index.css?gscdsd">
+    <link rel="stylesheet" media="screen" href="https://cdn.shopify.com/shopifycloud/brochure/assets/manifests/pillar/start-21d2627ebecfac1d731f676b75bcc7512ddf595774386dba5e6bee48264aa845.css">
     <meta property="fb:app_id" content="847460188612391">
     <meta property="fb:pages" content="20409006880">
     <meta property="og:type" content="website">
@@ -76,6 +77,35 @@
     <script charset="utf-8" src="https://cdn.shopify.com/shopifycloud/brochure/bundles/latest/vendors~map-app/MapApp-9b95c7c71ad0f47ae83d3c70a767f318970f86a1fee7e76768ab3593bdd818ae.js"></script>
     <script charset="utf-8" src="https://cdn.shopify.com/shopifycloud/brochure/bundles/latest/map-app/MapApp-0c17c4d2a50d6de590bb6ea39f4ea2f5dea7d413ae79bc2fe98c94787278326c.js"></script>
     <script type="text/javascript" async="" charset="utf-8" id="utag_shopify.main_177" src="//tags.tiqcdn.com/utag/shopify/main/prod/utag.177.js?utv=ut4.46.202111261737"></script>
+    <style type="text/css">
+        @font-face {
+            font-weight: 400;
+            font-style: normal;
+            font-family: 'Circular-Loom';
+            src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Book-cd7d2bcec649b1243839a15d5eb8f0a3.woff2') format('woff2');
+        }
+        
+        @font-face {
+            font-weight: 500;
+            font-style: normal;
+            font-family: 'Circular-Loom';
+            src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Medium-d74eac43c78bd5852478998ce63dceb3.woff2') format('woff2');
+        }
+        
+        @font-face {
+            font-weight: 700;
+            font-style: normal;
+            font-family: 'Circular-Loom';
+            src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Bold-83b8ceaf77f49c7cffa44107561909e4.woff2') format('woff2');
+        }
+        
+        @font-face {
+            font-weight: 900;
+            font-style: normal;
+            font-family: 'Circular-Loom';
+            src: url('https://cdn.loom.com/assets/fonts/circular/CircularXXWeb-Black-bf067ecb8aa777ceb6df7d72226febca.woff2') format('woff2');
+        }
+    </style>
     <style type="text/css">
         @font-face {
             font-weight: 400;
@@ -151,86 +181,86 @@
         <form class="marketing-form signup-form stateful-form" novalidate="novalidate" autocomplete="off" data-namespace="form_0" data-hidden-fields-namespace="hiddenFields_0" data-bind-event-submit="form_0.handleSubmit(this, event)" action="https://accounts.shopify.com/store-signup/setup"
             accept-charset="UTF-8" method="post" __bizdiag="1085605069" __biza="W___">
             <div data-define="{ email0:
-        new StatefulField(
-          'email',
-          form_0,
-          this,
-          {
-            required: true,
-            validate: true,
-            live: false,
-            showHint: true,
-            showError: true
-          },
-          {},
-          'form_0'
-        )}
-      " class="stateful-field email ">
+            new StatefulField(
+              'email',
+              form_0,
+              this,
+              {
+                required: true,
+                validate: true,
+                live: false,
+                showHint: true,
+                showError: true
+              },
+              {},
+              'form_0'
+            )}
+          " class="stateful-field email ">
                 <div data-context="email0"><label data-bind-class="{'js-has-error': state.error,'js-is-filled': state.filled || state.value.length > 0,'js-has-hint': !state.error &amp;&amp; state.hint}" class="marketing-input-wrapper"><span class="marketing-label marketing-label--in-field marketing-label--floating">Email address</span><input placeholder="Email address" aria-describedby="MessageId_28cc" name="signup[email]" type="email" autocomplete="email" data-bind="state.value" data-bind-event-blur="ShopifyMarketing.context.form_0.handleFieldBlur(ShopifyMarketing.context.email0)" data-bind-event-keyup="ShopifyMarketing.context.form_0.handleFieldKeyup(event, ShopifyMarketing.context.email0)" class="marketing-input marketing-input--floating" id="0_signup_email"></label>
                     <span class="marketing-form__messages" id="MessageId_28cc"><span class="suggest hide" data-bind-unsafe-html="displayHint()" data-bind-show="!state.error &amp;&amp; state.hint"></span><span class="error hide" data-bind="displayError()"
                         data-bind-show="state.error == true"></span></span>
                 </div>
             </div>
             <div data-define="{ password0:
-        new StatefulField(
-          'password',
-          form_0,
-          this,
-          {
-            required: true,
-            validate: true,
-            live: false,
-            showHint: false,
-            showError: true
-          },
-          {},
-          'form_0'
-        )}
-      " class="stateful-field password ">
+            new StatefulField(
+              'password',
+              form_0,
+              this,
+              {
+                required: true,
+                validate: true,
+                live: false,
+                showHint: false,
+                showError: true
+              },
+              {},
+              'form_0'
+            )}
+          " class="stateful-field password ">
                 <div data-context="password0"><label data-bind-class="{'js-has-error': state.error,'js-is-filled': state.filled || state.value.length > 0,'js-has-hint': !state.error &amp;&amp; state.hint}" class="marketing-input-wrapper"><span class="marketing-label marketing-label--in-field marketing-label--floating">Password</span><input placeholder="Password" aria-describedby="MessageId_c3fb" name="signup[password]" type="password" autocomplete="new-password" data-bind="state.value" data-bind-event-blur="ShopifyMarketing.context.form_0.handleFieldBlur(ShopifyMarketing.context.password0)" data-bind-event-keyup="null" class="marketing-input marketing-input--floating" id="0_signup_password"></label>
                     <span class="marketing-form__messages" id="MessageId_c3fb"><span class="suggest hide" data-bind-unsafe-html="displayHint()" data-bind-show="!state.error &amp;&amp; state.hint"></span><span class="error hide" data-bind="displayError()"
                         data-bind-show="state.error == true"></span></span>
                 </div>
             </div>
             <div data-define="{ shop_name0:
-        new StatefulField(
-          'shop_name',
-          form_0,
-          this,
-          {
-            required: true,
-            validate: true,
-            live: true,
-            showHint: false,
-            showError: true
-          },
-          {},
-          'form_0'
-        )}
-      " class="stateful-field shop_name ">
+            new StatefulField(
+              'shop_name',
+              form_0,
+              this,
+              {
+                required: true,
+                validate: true,
+                live: true,
+                showHint: false,
+                showError: true
+              },
+              {},
+              'form_0'
+            )}
+          " class="stateful-field shop_name ">
                 <div data-context="shop_name0"><label data-bind-class="{
-                'js-has-error': state.error == true,
-                'js-is-pending': state.pending == true,
-                'js-is-focused': state.focus == true,
-                'js-is-filled': state.filled == true || state.value.length > 0,
-              }" class="marketing-input-wrapper shop_name"><span class="marketing-label marketing-label--in-field marketing-label--floating">Your store name</span><input placeholder="Your store name" aria-describedby="MessageId_985f" name="signup[shop_name]" type="text" autocomplete="off" data-bind="state.value" data-bind-event-blur="ShopifyMarketing.context.form_0.handleFieldBlur(ShopifyMarketing.context.shop_name0)" data-bind-event-keyup="ShopifyMarketing.context.form_0.handleFieldKeyup(event, ShopifyMarketing.context.shop_name0)" class="marketing-input marketing-input--floating" id="0_signup_shop_name"></label>
+                    'js-has-error': state.error == true,
+                    'js-is-pending': state.pending == true,
+                    'js-is-focused': state.focus == true,
+                    'js-is-filled': state.filled == true || state.value.length > 0,
+                  }" class="marketing-input-wrapper shop_name"><span class="marketing-label marketing-label--in-field marketing-label--floating">Your store name</span><input placeholder="Your store name" aria-describedby="MessageId_985f" name="signup[shop_name]" type="text" autocomplete="off" data-bind="state.value" data-bind-event-blur="ShopifyMarketing.context.form_0.handleFieldBlur(ShopifyMarketing.context.shop_name0)" data-bind-event-keyup="ShopifyMarketing.context.form_0.handleFieldKeyup(event, ShopifyMarketing.context.shop_name0)" class="marketing-input marketing-input--floating" id="0_signup_shop_name"></label>
                     <span class="marketing-form__messages" id="MessageId_985f"><span class="suggest hide" data-bind-unsafe-html="displayHint()" data-bind-show="!state.error &amp;&amp; state.hint"></span><span class="error hide" data-bind="displayError()"
                         data-bind-show="state.error == true &amp;&amp; state.pending == false" data-bind-unsafe-html="displayError()"></span></span>
                 </div>
             </div>
             <div data-define="{hiddenFields_0: new HiddenFields({
-            source: &quot;&quot;,
-            source_url: &quot;&quot;,
-            source_url_referer: &quot;&quot;,
-            signup_code: &quot;&quot;,
-            signup_page: &quot;&quot;,
-            signup_page_referer: &quot;&quot;,
-            signup_types: [],
-            theme: &quot;&quot;,
-            selected_app: &quot;&quot;,
-            selected_plan: &quot;&quot;,
-            domain_to_connect: &quot;&quot;,
-          }, this)}">
+                source: &quot;&quot;,
+                source_url: &quot;&quot;,
+                source_url_referer: &quot;&quot;,
+                signup_code: &quot;&quot;,
+                signup_page: &quot;&quot;,
+                signup_page_referer: &quot;&quot;,
+                signup_types: [],
+                theme: &quot;&quot;,
+                selected_app: &quot;&quot;,
+                selected_plan: &quot;&quot;,
+                domain_to_connect: &quot;&quot;,
+              }, this)}">
                 <div data-context="hiddenFields_0">
                     <input type="hidden" name="ref" value="">
                     <input type="hidden" name="language" value="en">
@@ -242,7 +272,7 @@
                     <input type="hidden" name="source_url_referer" data-bind="fields.source_url_referer">
                     <input type="hidden" name="signup_code" data-bind="fields.signup_code">
                     <input type="hidden" name="signup_page" data-bind="fields.signup_page" value="https://home-sc.beae.com/">
-                    <input type="hidden" name="signup_page_referer" data-bind="fields.signup_page_referer" value="https://home-sc.beae.com/">
+                    <input type="hidden" name="signup_page_referer" data-bind="fields.signup_page_referer" value="">
                     <input type="hidden" name="promotional_program_code" value="">
                     <input type="hidden" name="domain_to_connect" data-bind="fields.domain_to_connect">
                     <input type="hidden" name="signup_types[]" data-bind-disabled="fields.signup_types" data-bind="fields.signup_type" disabled="">
@@ -260,8 +290,8 @@
     <header id="SiteNavContainer" class="site-nav-container is-sticky">
         <div class="marketing-nav-wrapper">
             <a class="in-page-link skip-to-main visuallyhidden focusable" data-ga-event="Main Nav" data-ga-action="Skip to content" data-trekkie-event="Main Nav" data-trekkie-action="Skip to content" data-trekkie-id="Main Nav Skip to content" href="#Main">Skip to Content</a>
-            <nav class="marketing-nav--skin-light marketing-nav marketing-nav--primary" id="ShopifyMainNav" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" style="
-      ">
+            <nav class="marketing-nav--skin-light marketing-nav marketing-nav--primary marketing-nav--solid" id="ShopifyMainNav" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement" style="
+          ">
                 <div class="marketing-nav__logo ">
                     <a href="/" class="marketing-nav__logo__shopify" data-ga-event="Main Nav" data-ga-action="Logo" data-trekkie-event="Main Nav" data-trekkie-action="Logo" data-trekkie-id="Main Nav Logo">
                         <img src="https://cdn.shopify.com/s/files/1/0607/8159/2796/files/beae_logo_120x@2x.png?v=1637806951">
@@ -277,8 +307,8 @@
                 <ul class="marketing-nav__items marketing-nav__user display--expanded-nav">
                     <li><a href="/pricing" class="marketing-nav__item marketing-nav__item--user" itemprop="name" data-ga-event="Main Nav" data-ga-action="Pricing" data-trekkie-event="Main Nav" data-trekkie-action="Pricing" data-trekkie-id="Main Nav Pricing"
                             style="
-          text-decoration: underline;
-      ">Home</a></li>
+              text-decoration: underline;
+          ">Home</a></li>
                     <li>
                         <div class="popover-wrapper js-popover-dropdown popover-wrapper--dropdown" data-position="bottom" data-align="left"><button type="button" class="popover__trigger marketing-nav__item marketing-nav__item--user" itemprop="name" data-ga-event="Main Nav" data-ga-action="Learn Nav" data-trekkie-event="Main Nav" data-trekkie-action="Learn Nav" data-trekkie-id="Main Nav Learn Nav"
                                 aria-expanded="false" aria-controls="Popover1" aria-current="location">Features<svg class="icon marketing-nav__arrow" aria-hidden="true" focusable="false"> <use xlink:href="#modules-caret-down"></use> </svg></button>
@@ -568,9 +598,9 @@
                                     <div class="marketing-input-button-pair__field-wrapper"><label class="marketing-label marketing-label--in-field marketing-label--floating marketing-input-button-pair__label" for="SignupEmail-1ff2">Email address</label><button class="marketing-button marketing-form__button marketing-input-button-pair__button"
                                             name="button" data-event-page="homepage" data-event-category="homepage" data-event-action="hero signup" data-event-label="email signup" aria-haspopup="dialog" type="submit">Start free now</button><button class="marketing-button marketing-form__button marketing-input-button-pair__button"
                                             name="button" data-event-page="homepage" data-event-category="homepage" data-event-action="hero signup" data-event-label="email signup" aria-haspopup="dialog" type="submit" style="
-          background: #fff;
-          color: #111;
-      ">Try live demo</button></div>
+              background: #fff;
+              color: #111;
+          ">Try live demo</button></div>
                                 </div><span class="marketing-form__messages" id="MessageId_09ce"></span></form>
                             <p class="marketing-form__fallback-cta text-center text-minor color-gray-80 text-left">(*) Free plan is available, no payment required and free forever.</p>
                         </div>
@@ -582,8 +612,8 @@
                 </div>
             </section>
             <section class="section" style="
-          padding-bottom: 0px;
-      ">
+              padding-bottom: 0px;
+          ">
                 <div class="grid">
                     <div class="grid__item">
                         <div class="section-heading how_inbox_works__heading-section">
@@ -594,7 +624,7 @@
                         <div class="grid__item grid__item--tablet-up-third tabs-container" equal_height="true" tabindex="0">
                             <div class="block tab inbox-index-tabs__border" data-target="0">
                                 <h3 class="block__heading heading--4">1. Install &amp; build</h3>
-                                <p class="block__content color-gray-80">Install Beae for free and edit your pages with the live builder. See the changes in the real-time.</p>
+                                <p class="block__content color-gray-80">Install Beae app for free and edit your pages with the live builder. See the changes in the real-time.</p>
                             </div>
                         </div>
                         <div class="grid__item grid__item--tablet-up-third tabs-container" equal_height="true" tabindex="0">
@@ -613,176 +643,190 @@
                             <video class="elementor-video" src="https://rr4---sn-ab5szn7y.googlevideo.com/videoplayback?expire=1639813825&amp;ei=YT69YYnoE4Hc8wTh0p6ABA&amp;ip=45.72.40.27&amp;id=o-AL8nvjKbFUrNePl0Ys51K9qoWoaG8bwOFwa-VEws_0DK&amp;itag=22&amp;source=youtube&amp;requiressl=yes&amp;mh=TY&amp;mm=31%2C29&amp;mn=sn-ab5szn7y%2Csn-ab5l6nzk&amp;ms=au%2Crdu&amp;mv=m&amp;mvi=4&amp;pl=24&amp;initcwndbps=442500&amp;vprv=1&amp;mime=video%2Fmp4&amp;ns=VugEFIgRnmjb1nc3NDSr5pUG&amp;cnr=14&amp;ratebypass=yes&amp;dur=93.228&amp;lmt=1636277288827890&amp;mt=1639791884&amp;fvip=4&amp;fexp=24001373%2C24007246&amp;c=WEB&amp;txp=6211224&amp;n=vTNBNu0fAUVsfeN9&amp;sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cvprv%2Cmime%2Cns%2Ccnr%2Cratebypass%2Cdur%2Clmt&amp;lsparams=mh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpl%2Cinitcwndbps&amp;lsig=AG3C_xAwRgIhANwXS7uhKtuh8whPi9lceGXjvThJX9vdHWfPIAO3iyNZAiEA_E1xeCPL7SOlcK0d2qjqXlwJP0fLtK_EWbTrQlvGAcU%3D&amp;sig=AOq0QJ8wRgIhALjWdBg5z78FXk-MFP40N-zAxQiUf2apcIons5ChU3FEAiEAv6TBPCoUQ_tT2l6Rq8Qt9xDWwOLeB24VNY3e8z9ewq8="
                                 autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload" poster="/assets/images/image-tight.png?sghgffjjj" style="width: 100%;"></video>
                         </div>
-
                     </div>
                 </div>
             </section>
-            <section class="section homepage-pillars js-waypoint-track" data-track-name="pillars">
+            <section class="section pillar-section__wrapper js-waypoint-track" id="BuildYourStore" data-track-name="store">
                 <div class="grid">
                     <div class="section-heading pillars__heading-wrapper">
                         <h2 class="section-heading__heading heading--1 section-heading__heading--regular">What makes us special</h2>
                         <p class="section-heading__subhead heading--2 text-major pillars__subhead">We solved the most missing piece in Shopify, flexible builder.<br>The all-in-one solution will help you save alot of time.</p>
                     </div>
-                    <div id="Sell" class="pillars__wrapper">
-                        <div class="pillars__image">
-                            <div class="pillars-animation pillars-animation__sell hide--mobile video js-video--custom-controls js-video--loaded" aria-describedby="Video-febc" aria-label="Video">
-                                <div class="video__video-container"><video muted="muted" loop="loop" playsinline="playsinline" data-autoplay="true" data-lazyload="true" data-poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/poster-sell-9a9415a0989001f51a3870a065e65b4cfaa5dbaa250288f60a7e5b6ba4f22394.jpg"
-                                        data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-toggle" class="video__video" autoplay="" poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/poster-sell-9a9415a0989001f51a3870a065e65b4cfaa5dbaa250288f60a7e5b6ba4f22394.jpg"><source data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-1b186d853b04bce6dbc12bb63bd5bc4bc1ff60cd1a06fd12f85261c8acc66d0a.webm" type="video/webm" src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-1b186d853b04bce6dbc12bb63bd5bc4bc1ff60cd1a06fd12f85261c8acc66d0a.webm"><source data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-e91e64db2d38816861b2eb3243eb9d8b28225f47269954d9f257cc850bb2f33a.mp4" type="video/mp4" src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-e91e64db2d38816861b2eb3243eb9d8b28225f47269954d9f257cc850bb2f33a.mp4"></video></div>
-                                <button class="video__button video__button--play pillars-animation__button pillars-animation__button--sell" data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-play"><svg class="icon video__icon" aria-hidden="true" focusable="false"> <use xlink:href="#modules-play"></use> </svg><span class="visuallyhidden">Play video</span></button>
-                                <button class="video__button video__button--pause pillars-animation__button pillars-animation__button--sell" data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-pause"><svg class="icon video__icon" aria-hidden="true" focusable="false"> <use xlink:href="#modules-pause"></use> </svg><span class="visuallyhidden">Pause video</span></button>
-                                <div class="video__button video__button--loading pillars-animation__button pillars-animation__button--sell" role="alert"><span class="visuallyhidden">Video is loading</span></div><span class="visuallyhidden" id="Video-febc">To help show all the ways you can sell with Shopify, there’s a
-    slow animation of three different images: a sleek, white chair
-    being sold on an ecommerce website, the same chair appearing on
-    an online market place, and an in-store transaction using POS.</span></div>
-                            <div class="pillars-animation pillars-animation__sell display--mobile video js-video--custom-controls js-video--loaded" aria-describedby="Video-0364" aria-label="Video">
-                                <div class="video__video-container"><video muted="muted" loop="loop" playsinline="playsinline" data-autoplay="true" data-lazyload="true" data-poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/poster-sell-9a9415a0989001f51a3870a065e65b4cfaa5dbaa250288f60a7e5b6ba4f22394.jpg"
-                                        data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-toggle" class="video__video" autoplay="" poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/poster-sell-9a9415a0989001f51a3870a065e65b4cfaa5dbaa250288f60a7e5b6ba4f22394.jpg"><source data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-mobile-7c7c04d7b8a7d34bb86a5d443635f49a24483551a7e9a951c43ae9f2dd6344e7.webm" type="video/webm" src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-mobile-7c7c04d7b8a7d34bb86a5d443635f49a24483551a7e9a951c43ae9f2dd6344e7.webm"><source data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-mobile-50fe545f965059facbf5ae85f7b663d91ed337f61083803e293ca3d9d0851f75.mp4" type="video/mp4" src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-mobile-50fe545f965059facbf5ae85f7b663d91ed337f61083803e293ca3d9d0851f75.mp4"></video></div>
-                                <button class="video__button video__button--play pillars-animation__button pillars-animation__button--sell" data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-play"><svg class="icon video__icon" aria-hidden="true" focusable="false"> <use xlink:href="#modules-play"></use> </svg><span class="visuallyhidden">Play video</span></button>
-                                <button class="video__button video__button--pause pillars-animation__button pillars-animation__button--sell" data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-pause"><svg class="icon video__icon" aria-hidden="true" focusable="false"> <use xlink:href="#modules-pause"></use> </svg><span class="visuallyhidden">Pause video</span></button>
-                                <div class="video__button video__button--loading pillars-animation__button pillars-animation__button--sell" role="alert"><span class="visuallyhidden">Video is loading</span></div><span class="visuallyhidden" id="Video-0364">To help show all the ways you can sell with Shopify, there’s a
-    slow animation of three different images: a sleek, white chair
-    being sold on an ecommerce website, the same chair appearing on
-    an online market place, and an in-store transaction using POS.</span></div>
-                        </div>
-                        <div class="block pillars__block pillars__block--sell">
-                            <h3 class="block__heading heading--2">Flexible page builder</h3>
-                            <p class="block__content">More than 100+ powerful Shopify elements ready to drag and drop into the live editor. No coding knowledge required.</p>
-                            <a class="pillars__block-link link link--secondary" data-event-page="homepage" data-event-category="homepage" data-event-action="pillars" data-event-label="sell" href="/sell">Learn more &nbsp; <span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true" focusable="false"> <use xlink:href="#modules-arrow-right"></use> </svg></span></a>
+                    <div class="grid__item pillar-section__content-container pillar-section__content-container--store">
+                        <div class="pillar-section__content">
+                            <div class="section-heading section-heading--mobile-up-align-left pillar-section__heading-container">
+                                <p class="section-heading__kicker heading--5 color-black text-left gutter-bottom">Page builder</p>
+                                <h2 class="section-heading__heading heading--2 text-left gutter-bottom pillar-section__heading">The most flexible page builder</h2>
+                                <p class="section-heading__subhead text-major text-left color-gray-80 gutter-bottom--reset">Bring your idea to life with the tools you need to start&nbsp;selling.</p>
+                            </div>
+
+                            <div class="pillar-section__image-container">
+                                <div class="pillar-visual-localized">
+                                    <img class="image lazyloaded" alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/store/store-small-d6bd770bdfb31e857f9438a438c6f65fe4ce86b2c402141f4434227f4f05ab5b.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/store/store-large-2f7843c25a2b6fda07240bf128806f8f9b3b31ee350666c63e7265301079d729.png?quality=50 2x"
+                                        sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/store/store-small-d6bd770bdfb31e857f9438a438c6f65fe4ce86b2c402141f4434227f4f05ab5b.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/store/store-large-2f7843c25a2b6fda07240bf128806f8f9b3b31ee350666c63e7265301079d729.png?quality=50 2x"><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/store/store-small-d6bd770bdfb31e857f9438a438c6f65fe4ce86b2c402141f4434227f4f05ab5b.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/store/store-large-2f7843c25a2b6fda07240bf128806f8f9b3b31ee350666c63e7265301079d729.png?quality=50 2x" alt="" class="image" /></noscript>
+                                </div>
+
+                            </div>
+
+                            <div class="pillar-section__detail">
+                                <h3 class="heading--4">
+                                    <span class="pillar-section__cta--store">
+                      <a data-event-page="start" data-event-category="start" data-event-action="store" data-event-label="products" class="link link--secondary" href="/oberlo">Find products to sell&nbsp;<span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true" focusable="false"> <use xlink:href="#modules-arrow-right"></use> </svg></span></a>
+                                    </span>
+                                </h3>
+
+                                <p class="gutter-bottom--reset color-gray-90">
+                                    Stock your store without inventory and ship directly to customers with&nbsp;Oberlo.
+                                </p>
+                            </div>
+                            <div class="pillar-section__detail">
+                                <h3 class="heading--4">
+                                    <span class="pillar-section__cta--store">
+                      <a data-event-page="start" data-event-category="start" data-event-action="store" data-event-label="theme" class="link link--secondary" href="https://themes.shopify.com">Choose a store theme&nbsp;<span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true" focusable="false"> <use xlink:href="#modules-arrow-right"></use> </svg></span></a>
+                                    </span>
+                                </h3>
+
+                                <p class="gutter-bottom--reset color-gray-90">
+                                    Browse a wide range of free and paid&nbsp;themes.
+                                </p>
+                            </div>
+                            <div class="pillar-section__detail">
+                                <h3 class="heading--4">
+                                    <span class="pillar-section__cta--store">
+                      <a data-event-page="start" data-event-category="start" data-event-action="store" data-event-label="card-reader" class="link link--secondary" href="/pos/hardware">Sell anywhere&nbsp;<span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true" focusable="false"> <use xlink:href="#modules-arrow-right"></use> </svg></span></a>
+                                    </span>
+                                </h3>
+
+                                <p class="gutter-bottom--reset color-gray-90">
+                                    Make sales in person and on the go with Shopify&nbsp;POS hardware.
+                                </p>
+                            </div>
+
+
+
                         </div>
                     </div>
-                    <div id="Market" class="pillars__wrapper gutter-bottom">
-                        <div class="block pillars__block">
-                            <h3 class="block__heading heading--2">UX templates library &amp; sell tools</h3>
-                            <p class="block__content">The template library and Kit packages are always updated. Integrating with the most popular apps on the Appstore.</p>
-                            <a class="pillars__block-link link link--secondary" data-event-page="homepage" data-event-category="homepage" data-event-action="pillars" data-event-label="market" href="/market">Learn more&nbsp;<span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true" focusable="false"> <use xlink:href="#modules-arrow-right"></use> </svg></span></a>
-                        </div> <span class="image lazyload-image pillars__image pillars__image--market" style="max-width: 681px; max-height: 547px;"><span class="lazyload-image__placeholder" style="padding-bottom: 80.3231%"><img alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-small-084eab2d72b510555838c446501d27dd7380585450efcaaa97453289b2b69c79.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-large-213dc76dc5482456e02e34465bab786df62a6c07de2c9fcd4937a7b52813b56d.jpg?quality=50 2x" class=" ls-is-cached lazyloaded" sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-small-084eab2d72b510555838c446501d27dd7380585450efcaaa97453289b2b69c79.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-large-213dc76dc5482456e02e34465bab786df62a6c07de2c9fcd4937a7b52813b56d.jpg?quality=50 2x"><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-small-084eab2d72b510555838c446501d27dd7380585450efcaaa97453289b2b69c79.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/market-large-213dc76dc5482456e02e34465bab786df62a6c07de2c9fcd4937a7b52813b56d.jpg?quality=50 2x" alt="" /></noscript></span></span>
+                </div>
+            </section>
+            <section class="section pillar-section__wrapper js-waypoint-track" id="BuildYourOnlinePresence" data-track-name="online">
+                <div class="grid">
+                    <div class="grid__item pillar-section__content-container pillar-section__content-container--flipped pillar-section__content-container--online">
+                        <div class="pillar-section__content">
+                            <div class="section-heading section-heading--mobile-up-align-left pillar-section__heading-container">
+                                <p class="section-heading__kicker heading--5 color-black text-left gutter-bottom">Beae ecosystem</p>
+                                <h2 class="section-heading__heading heading--2 text-left gutter-bottom pillar-section__heading">The weapon to build your store</h2>
+                                <p class="section-heading__subhead text-major text-left color-gray-80 gutter-bottom--reset">Put your brand into action—develop customer loyalty and promote your business on&nbsp;social.</p>
+                            </div>
+
+                            <div class="pillar-section__image-container">
+                                <div class="pillar-visual-localized start-online__visual" aria-hidden="true">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 681 620">
+        <defs>
+          <rect id="start-online-a" width="391.962" height="309.398" x="0" y="0" rx="5"></rect>
+        </defs>
+        <g fill="none" fill-rule="evenodd">
+          <rect width="345.889" height="455.115" x="28" y="116.3" class="pillar-visual__with-blur" rx="16.971"></rect>
+          <rect width="345.969" height="455.115" x="28" y="116.3" fill="#FFF" rx="5"></rect>
+          <path fill="none" stroke="#000" stroke-dasharray="1 5" stroke-linecap="square" d="M46 187.32h306.972a3 3 0 0 1 3 3v301.402a3 3 0 0 1-3 3H46a3 3 0 0 1-3-3V190.32a3 3 0 0 1 3-3z" opacity=".5"></path>
+          <rect width="1.442" height="20.4" x="198.5" y="331.5" fill="#000" fill-rule="nonzero" opacity=".5" rx=".721"></rect>
+          <path fill="#000" fill-rule="nonzero" d="M209.4 341.734a.721.721 0 0 1-.721.721H189.72a.721.721 0 0 1 0-1.442h18.958a.72.72 0 0 1 .72.721z" opacity=".5"></path>
+          <rect width="214.552" height="10.763" x="43" y="509.6" fill="#E1E2EA" opacity=".524" rx="5.381"></rect>
+          <rect width="150.024" height="11.378" x="43" y="529.5" fill="#E1E2EA" opacity=".524" rx="5.689"></rect>
+          <rect width="36.997" height="7.984" x="90" y="159.2" fill="#E1E2EA" opacity=".524" rx="3.992"></rect>
+          <rect width="104.991" height="9.981" x="90" y="142.3" fill="#E1E2EA" opacity=".524" rx="4.99"></rect>
+          <path fill="#90DFD6" d="M62.497 174.207c10.768 0 19.498-8.713 19.498-19.462 0-10.748-8.73-19.462-19.498-19.462-10.769 0-19.498 8.714-19.498 19.462 0 10.749 8.73 19.462 19.498 19.462z"></path>
+          <path fill="#FFF" d="M58.654 155.025l3.904 3.955 3.94-3.938-3.955-3.905-3.89 3.888m3.86 10.29l10.32-10.329-4.334-4.302-1.563 1.566c.898.9 1.818 1.82 2.731 2.732l-7.194 7.205-2.74-2.752-1.532 1.53 4.312 4.35m-.018-20.664l-10.327 10.334 4.293 4.297 1.542-1.542-2.686-2.725 7.204-7.207 2.738 2.695 1.54-1.546-4.304-4.306m-.021 23.832L49 154.975l13.492-13.492L76 154.956l-13.526 13.527"></path>
+          <ellipse cx="438.493" cy="563.718" class="pillar-visual__with-blur" rx="26.498" ry="26.449"></ellipse>
+          <ellipse cx="377.913" cy="531.196" class="pillar-visual__with-blur" rx="19.913" ry="19.876"></ellipse>
+          <path fill="#4266B2" d="M397.823 530.904c0 10.816-8.913 19.583-19.91 19.583S358 541.72 358 530.904c0-10.817 8.916-19.584 19.913-19.584s19.91 8.767 19.91 19.584"></path>
+          <path fill="#FFF" d="M373.437 528.462h-2.703c-.264 0-.48.246-.48.55v8.874c0 .304.216.55.48.55h2.703c.266 0 .48-.246.48-.55v-8.875c0-.303-.214-.55-.48-.55m12.133.628c0-.884-.605-1.6-1.36-1.623v-.002h-4.36s1.21-2.7 1.21-3.981c0-1.281-.242-2.181-.654-2.693-.254-.35-.532-.431-.876-.431-.71 0-1.1.596-1.101 1.228h-.002s.002.562.002 1.146c0 .269-.425 1.024-.958 1.631-.461.53-.95 1.236-1.72 2.489-.949 1.54-.962 3.48-.962 4.001v5.786c0 .466.287.998.699.998h8.2v-.004c.573-.035 1.028-.577 1.028-1.24a1.31 1.31 0 0 0-.421-.984c.515-.098.91-.61.91-1.226 0-.505-.265-.939-.644-1.134.538-.157.934-.713.934-1.377 0-.51-.233-.955-.585-1.208.396-.285.66-.794.66-1.376"></path>
+          <circle cx="438.5" cy="564.18" r="26.5" fill="#F41E42" fill-rule="nonzero"></circle>
+          <path fill="#FFF" fill-rule="nonzero" d="M454 559.545v2.35a11.547 11.547 0 0 1-2.893 4.896c-3.98 4.05-7.946 8.114-11.92 12.17-.217.22-.458.416-.792.719-.273-.327-.483-.617-.73-.871-3.593-3.68-7.168-7.377-10.798-11.02-1.707-1.712-3.23-3.507-3.867-5.894v-2.564c.07-.155.167-.303.209-.466.913-3.514 3.523-5.743 7.14-6.092 3.179-.306 6.258 1.535 7.771 4.645.1.203.211.4.392.744.208-.448.332-.732.471-1.009 1.537-3.056 4.66-4.782 8.008-4.427 3.227.342 5.935 2.747 6.769 6.01.07.273.16.54.24.809"></path>
+          <rect width="391.967" height="307.435" x="257" y="155.1" class="pillar-visual__with-blur" rx="16.971"></rect>
+          <g transform="translate(257 155.32)">
+            <mask id="start-online-b" fill="#fff">
+              <use xlink:href="#start-online-a"></use>
+            </mask>
+            <use class="pillar-visual__with-blur" xlink:href="#start-online-a"></use>
+            <g mask="url(#start-online-b)">
+              <foreignObject width="393" height="309">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                  <img class="image lazyloaded" alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/online/start-online-small-fc99aa599514dbdb5b5075dcd16b009f6c810134184453121510e55be8201bd9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/online/start-online-large-a588a764232330f584ae870357b8760344ede5db98ec3833b76ff8ad1eecbac2.jpg?quality=50 2x" sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/online/start-online-small-fc99aa599514dbdb5b5075dcd16b009f6c810134184453121510e55be8201bd9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/online/start-online-large-a588a764232330f584ae870357b8760344ede5db98ec3833b76ff8ad1eecbac2.jpg?quality=50 2x"><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/online/start-online-small-fc99aa599514dbdb5b5075dcd16b009f6c810134184453121510e55be8201bd9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/online/start-online-large-a588a764232330f584ae870357b8760344ede5db98ec3833b76ff8ad1eecbac2.jpg?quality=50 2x" alt="" class="image" /></noscript>
+                </div>
+              </foreignObject>
+            </g>
+          </g>
+          <rect width="391.035" height="60" x="135" y="28.3" class="pillar-visual__with-blur" rx="30"></rect>
+          <rect width="391.035" height="60" x="135" y="28.3" fill="#FFF" rx="30"></rect>
+          <ellipse cx="491.393" cy="57.891" fill="#333232" fill-rule="nonzero" rx="13.393" ry="13.571"></ellipse>
+          <polyline stroke="#FFF" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.857" points="487 58.1 489.2 62.2 496.8 54.9"></polyline>
+          <text font-size="18" x="165" y="65">
+            <tspan fill="#90929e" letter-spacing=".44">https://</tspan>
+            <tspan fill="#151933" letter-spacing=".64">yourbusinessname.com</tspan>
+          </text>
+        </g>
+      </svg>
+                                </div>
+
+                            </div>
+
+                            <div class="pillar-section__detail">
+                                <h3 class="heading--4">
+                                    <span class="pillar-section__cta--online">
+                      <a data-event-page="start" data-event-category="start" data-event-action="online" data-event-label="domain" class="link link--secondary" href="/domains">Get a custom web address&nbsp;<span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true" focusable="false"> <use xlink:href="#modules-arrow-right"></use> </svg></span></a>
+                                    </span>
+                                </h3>
+
+                                <p class="gutter-bottom--reset color-gray-90">
+                                    Establish your business and let customers find your store&nbsp;online.
+                                </p>
+                            </div>
+                            <div class="pillar-section__detail">
+                                <h3 class="heading--4">
+                                    <span class="pillar-section__cta--online">
+                      <a data-event-page="start" data-event-category="start" data-event-action="online" data-event-label="photos" class="link link--secondary" href="https://burst.shopify.com">Download free stock photos&nbsp;<span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true" focusable="false"> <use xlink:href="#modules-arrow-right"></use> </svg></span></a>
+                                    </span>
+                                </h3>
+
+                                <p class="gutter-bottom--reset color-gray-90">
+                                    Personalize your website with free, high resolution images from&nbsp;Burst.
+                                </p>
+                            </div>
+
+
+
+                        </div>
                     </div>
+                </div>
+                <div class="grid">
+                </div>
+            </section>
+            <section class="section homepage-pillars js-waypoint-track" data-track-name="pillars">
+                <div class="grid">
+
+
+
                     <div id="Manage" class="pillars__wrapper gutter-bottom">
                         <div class="online-store-overview__features-ui-illustration pillars__image ui-illustration" role="img" aria-label="Mobile view of the Shopify admin showing an overview of total sales and total growth represented in a graph.">
-                            <div class="pillars__admin-ui-illustration ui-illustration__component ui-illustration-admin-container ui-illustration-admin-container--layout-desktop-right-full ui-illustration-admin-container--desktop ui-illustration__component--initialized" aria-hidden="true"
-                                style="width: 100%;">
-                                <div style="width: 555px; position: absolute; transform-origin: 0px 0px; transform: scale(0.609009);">
-                                    <div style="width: 660px; position: absolute; transform-origin: 0px 0px; transform: scale(0.840909);">
-                                        <div class="ui-illustration-admin-container__keep-dimensions ui-illustration__card ui-illustration__card--shadow">
-                                            <div class="ui-illustration-admin-container__content-container">
-                                                <div class="ui-illustration-admin-container__header"><svg class="icon ui-illustration-admin-container__header-icon" aria-hidden="true" focusable="false"> <use xlink:href="#logos-shopify-bag-color"></use> </svg>
-                                                    <div class="ui-illustration-admin-container__search-bar"><svg class="icon ui-illustration-admin-container__search-icon" aria-hidden="true" focusable="false"> <use xlink:href="#modules-search"></use> </svg>
-                                                        <p class="ui-illustration-admin-container__search-text gutter-bottom--reset">Search</p>
-                                                    </div>
-                                                    <div class="ui-illustration-admin-container__merchant-profile"><span class="image lazyload-image ui-illustration-admin-container__merchant-image" style="max-width: 48px; max-height: 48px;"><span class="lazyload-image__placeholder" style="padding-bottom: 100.0%"><img alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/merchants/helen-small-591d6ce00cd70d2d1d810b750eb6673679d03e23e79df5e5f85ad183ef277370.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/merchants/helen-large-0bddea1bfdd0cb7e6013edd83ac633465c7691bb618f4f7a5cb93e11c0696f0b.jpg?quality=50 2x" class=" ls-is-cached lazyloaded" sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/merchants/helen-small-591d6ce00cd70d2d1d810b750eb6673679d03e23e79df5e5f85ad183ef277370.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/merchants/helen-large-0bddea1bfdd0cb7e6013edd83ac633465c7691bb618f4f7a5cb93e11c0696f0b.jpg?quality=50 2x"><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/merchants/helen-small-591d6ce00cd70d2d1d810b750eb6673679d03e23e79df5e5f85ad183ef277370.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/merchants/helen-large-0bddea1bfdd0cb7e6013edd83ac633465c7691bb618f4f7a5cb93e11c0696f0b.jpg?quality=50 2x" alt="" /></noscript></span></span>
-                                                        <div>
-                                                            <p class="ui-illustration-admin-container__merchant-name gutter-bottom--reset">Helen B.</p>
-                                                            <p class="ui-illustration-admin-container__merchant-business gutter-bottom--reset">My Work Space</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="ui-illustration-admin-container__body">
-                                                    <div class="ui-illustration-admin-container__section ui-illustration__card ui-illustration__card--outline">
-                                                        <div class="ui-illustration__component ui-illustration-admin-summary ui-illustration__component--initialized" aria-hidden="true" style="width: 100%;">
-                                                            <div style="width: 246px; position: absolute; transform-origin: 0px 0px; transform: scale(1.00407);">
-                                                                <div style="width: 280px; position: absolute; transform-origin: 0px 0px; transform: scale(0.882143);">
-                                                                    <div class="ui-illustration-admin-summary__inner">
-                                                                        <div class="ui-illustration-admin-summary__content">
-                                                                            <div class="ui-illustration-admin-summary__heading-row">
-                                                                                <p class="ui-illustration-admin-section-heading heading--5">Total Sales</p>
-                                                                            </div>
-                                                                            <p class="ui-illustration-admin-summary__total gutter-bottom--reset">$218</p><img loading="lazy" class="ui-illustration-admin-summary__image ui-illustration-admin-summary__image--overflow-top" src="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/summary-sales-d189a935ed9ba5270c6bcdf4bce11525f3a159d75cfb2f927f89f7ad71621f7a.svg"></div>
-                                                                        <div class="ui-illustration-admin-summary__footer">
-                                                                            <p class="ui-illustration-admin-summary__footer-text gutter-bottom--reset">6 total orders</p>
-                                                                            <p class="ui-illustration-admin-summary__footer-cta gutter-bottom--reset">View report</p><svg class="icon ui-illustration-admin-summary__footer-icon" aria-hidden="true" focusable="false"> <use xlink:href="#modules-caret-right"></use> </svg></div>
-                                                                    </div>
-                                                                </div>
-                                                                <div style="height: 0px; padding-bottom: 43.2143%;"></div>
-                                                            </div>
-                                                            <div style="height: 0px; padding-bottom: 43.0894%;"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="ui-illustration-admin-container__section ui-illustration__card ui-illustration__card--outline">
-                                                        <div class="ui-illustration__component ui-illustration-admin-orders ui-illustration__component--initialized" aria-hidden="true" style="width: 100%;">
-                                                            <div style="width: 246px; position: absolute; transform-origin: 0px 0px; transform: scale(1.00407);">
-                                                                <div style="width: 280px; position: absolute; transform-origin: 0px 0px; transform: scale(0.882143);">
-                                                                    <div class="ui-illustration-admin-orders__inner">
-                                                                        <div class="ui-illustration-admin-orders__order-status">
-                                                                            <div class="color-cyan-30 ui-illustration-admin-orders__order-status-icon fulfillment-circle fulfillment-circle--fill-half fulfillment-circle--border-thin"></div>
-                                                                            <p class="ui-illustration-admin-orders__order-status-text gutter-bottom--reset">Shipped Orders (2)</p>
-                                                                        </div>
-                                                                        <table class="ui-illustration-admin-orders__content">
-                                                                            <tbody>
-                                                                                <tr class="ui-illustration-admin-orders__row--long">
-                                                                                    <td class="ui-illustration-admin-orders__product-image-container"><span class="image lazyload-image ui-illustration-admin-orders__product-image" style="max-width: 15px; max-height: 22px;"><span class="lazyload-image__placeholder" style="padding-bottom: 146.6667%"><img alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-small-6bc082f4d6b2ac6efb1b7951a7311ce2df2d0739cbb7a4e2b8d419fc893511f9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-large-6b585a38a4582fd04f662afa1d34740e8bb0547545e96d5a605f75025558ecfc.jpg?quality=50 2x" class=" ls-is-cached lazyloaded" sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-small-6bc082f4d6b2ac6efb1b7951a7311ce2df2d0739cbb7a4e2b8d419fc893511f9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-large-6b585a38a4582fd04f662afa1d34740e8bb0547545e96d5a605f75025558ecfc.jpg?quality=50 2x"><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-small-6bc082f4d6b2ac6efb1b7951a7311ce2df2d0739cbb7a4e2b8d419fc893511f9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-large-6b585a38a4582fd04f662afa1d34740e8bb0547545e96d5a605f75025558ecfc.jpg?quality=50 2x" alt="" /></noscript></span></span>
-                                                                                    </td>
-                                                                                    <th class="ui-illustration-admin-orders__item-name" colspan="1">Slope Chair</th>
-                                                                                    <td class="ui-illustration-admin-orders__item-total">$149 x 1</td>
-                                                                                    <td class="ui-illustration-admin-orders__item-sku">SKU: OB326</td>
-                                                                                </tr>
-                                                                                <tr class="ui-illustration-admin-orders__row--long">
-                                                                                    <td class="ui-illustration-admin-orders__product-image-container"><span class="image lazyload-image ui-illustration-admin-orders__product-image" style="max-width: 15px; max-height: 22px;"><span class="lazyload-image__placeholder" style="padding-bottom: 146.6667%"><img alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-small-6bc082f4d6b2ac6efb1b7951a7311ce2df2d0739cbb7a4e2b8d419fc893511f9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-large-6b585a38a4582fd04f662afa1d34740e8bb0547545e96d5a605f75025558ecfc.jpg?quality=50 2x" class=" ls-is-cached lazyloaded" sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-small-6bc082f4d6b2ac6efb1b7951a7311ce2df2d0739cbb7a4e2b8d419fc893511f9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-large-6b585a38a4582fd04f662afa1d34740e8bb0547545e96d5a605f75025558ecfc.jpg?quality=50 2x"><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-small-6bc082f4d6b2ac6efb1b7951a7311ce2df2d0739cbb7a4e2b8d419fc893511f9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-large-6b585a38a4582fd04f662afa1d34740e8bb0547545e96d5a605f75025558ecfc.jpg?quality=50 2x" alt="" /></noscript></span></span>
-                                                                                    </td>
-                                                                                    <th class="ui-illustration-admin-orders__item-name" colspan="1">Slope Chair</th>
-                                                                                    <td class="ui-illustration-admin-orders__item-total">$149 x 1</td>
-                                                                                    <td class="ui-illustration-admin-orders__item-sku">SKU: OB326</td>
-                                                                                </tr>
-                                                                                <tr class="ui-illustration-admin-orders__row--long">
-                                                                                    <td class="ui-illustration-admin-orders__product-image-container"><span class="image lazyload-image ui-illustration-admin-orders__product-image" style="max-width: 15px; max-height: 22px;"><span class="lazyload-image__placeholder" style="padding-bottom: 146.6667%"><img alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-small-6bc082f4d6b2ac6efb1b7951a7311ce2df2d0739cbb7a4e2b8d419fc893511f9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-large-6b585a38a4582fd04f662afa1d34740e8bb0547545e96d5a605f75025558ecfc.jpg?quality=50 2x" class=" ls-is-cached lazyloaded" sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-small-6bc082f4d6b2ac6efb1b7951a7311ce2df2d0739cbb7a4e2b8d419fc893511f9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-large-6b585a38a4582fd04f662afa1d34740e8bb0547545e96d5a605f75025558ecfc.jpg?quality=50 2x"><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-small-6bc082f4d6b2ac6efb1b7951a7311ce2df2d0739cbb7a4e2b8d419fc893511f9.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/orders-product-large-6b585a38a4582fd04f662afa1d34740e8bb0547545e96d5a605f75025558ecfc.jpg?quality=50 2x" alt="" /></noscript></span></span>
-                                                                                    </td>
-                                                                                    <th class="ui-illustration-admin-orders__item-name" colspan="1">Slope Chair</th>
-                                                                                    <td class="ui-illustration-admin-orders__item-total">$149 x 1</td>
-                                                                                    <td class="ui-illustration-admin-orders__item-sku">SKU: OB326</td>
-                                                                                </tr>
-                                                                            </tbody>
-                                                                        </table>
-                                                                    </div>
-                                                                </div>
-                                                                <div style="height: 0px; padding-bottom: 43.2143%;"></div>
-                                                            </div>
-                                                            <div style="height: 0px; padding-bottom: 43.0894%;"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="ui-illustration-admin-container__section ui-illustration__card ui-illustration__card--outline">
-                                                        <div class="ui-illustration__component ui-illustration-admin-list ui-illustration-admin-list--list-type-transactions ui-illustration__component--initialized" aria-hidden="true" style="width: 100%;">
-                                                            <div style="width: 246px; position: absolute; transform-origin: 0px 0px; transform: scale(1.00407);">
-                                                                <div style="width: 280px; position: absolute; transform-origin: 0px 0px; transform: scale(0.882143);">
-                                                                    <div class="ui-illustration-admin-list__inner">
-                                                                        <p class="ui-illustration-admin-section-heading heading--5">Transactions</p>
-                                                                        <div class="ui-illustration-admin-list__list-item"><img loading="lazy" class="ui-illustration-admin-list__image" src="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/bullet-transaction-405121642f691956a80be758b75ff66cb5069d9ade00ce580e95317b1b213ff9.svg">
-                                                                            <p class="ui-illustration-admin-list__label gutter-bottom--reset
-                        ui-illustration-admin-list__label--transactions">#1009</p>
-                                                                            <p class="ui-illustration-admin-list__amount gutter-bottom--reset">$150</p>
-                                                                        </div>
-                                                                        <div class="ui-illustration-admin-list__list-item"><img loading="lazy" class="ui-illustration-admin-list__image" src="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/bullet-transaction-405121642f691956a80be758b75ff66cb5069d9ade00ce580e95317b1b213ff9.svg">
-                                                                            <p class="ui-illustration-admin-list__label gutter-bottom--reset
-                        ui-illustration-admin-list__label--transactions">#1010</p>
-                                                                            <p class="ui-illustration-admin-list__amount gutter-bottom--reset">$160</p>
-                                                                        </div>
-                                                                        <div class="ui-illustration-admin-list__list-item"><img loading="lazy" class="ui-illustration-admin-list__image" src="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/bullet-transaction-405121642f691956a80be758b75ff66cb5069d9ade00ce580e95317b1b213ff9.svg">
-                                                                            <p class="ui-illustration-admin-list__label gutter-bottom--reset
-                        ui-illustration-admin-list__label--transactions">#1011</p>
-                                                                            <p class="ui-illustration-admin-list__amount gutter-bottom--reset">$80.00</p>
-                                                                        </div>
-                                                                        <div class="ui-illustration-admin-list__list-item"><img loading="lazy" class="ui-illustration-admin-list__image" src="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/bullet-transaction-405121642f691956a80be758b75ff66cb5069d9ade00ce580e95317b1b213ff9.svg">
-                                                                            <p class="ui-illustration-admin-list__label gutter-bottom--reset
-                        ui-illustration-admin-list__label--transactions">#1012</p>
-                                                                            <p class="ui-illustration-admin-list__amount gutter-bottom--reset">$120</p>
-                                                                        </div>
-                                                                        <div class="ui-illustration-admin-list__list-item"><img loading="lazy" class="ui-illustration-admin-list__image" src="https://cdn.shopify.com/shopifycloud/brochure/assets/ui-illustrations/admin/bullet-transaction-405121642f691956a80be758b75ff66cb5069d9ade00ce580e95317b1b213ff9.svg">
-                                                                            <p class="ui-illustration-admin-list__label gutter-bottom--reset
-                        ui-illustration-admin-list__label--transactions">#1013</p>
-                                                                            <p class="ui-illustration-admin-list__amount gutter-bottom--reset">$80.00</p>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div style="height: 0px; padding-bottom: 100.714%;"></div>
-                                                            </div>
-                                                            <div style="height: 0px; padding-bottom: 100.813%;"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div style="height: 0px; padding-bottom: 65.4545%;"></div>
-                                </div>
-                                <div style="height: 0px; padding-bottom: 65.4054%;"></div>
+                            <div class="pillars__image">
+                                <div class="pillars-animation pillars-animation__sell hide--mobile video js-video--custom-controls js-video--loaded js-video--active" aria-describedby="Video-febc" aria-label="Video">
+                                    <div class="video__video-container"><video muted="muted" loop="loop" playsinline="playsinline" data-autoplay="true" data-lazyload="true" data-poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/poster-sell-9a9415a0989001f51a3870a065e65b4cfaa5dbaa250288f60a7e5b6ba4f22394.jpg"
+                                            data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-toggle" class="video__video" autoplay="" poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/poster-sell-9a9415a0989001f51a3870a065e65b4cfaa5dbaa250288f60a7e5b6ba4f22394.jpg"><source data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-1b186d853b04bce6dbc12bb63bd5bc4bc1ff60cd1a06fd12f85261c8acc66d0a.webm" type="video/webm" src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-1b186d853b04bce6dbc12bb63bd5bc4bc1ff60cd1a06fd12f85261c8acc66d0a.webm"><source data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-e91e64db2d38816861b2eb3243eb9d8b28225f47269954d9f257cc850bb2f33a.mp4" type="video/mp4" src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-desktop-e91e64db2d38816861b2eb3243eb9d8b28225f47269954d9f257cc850bb2f33a.mp4"></video></div>
+                                    <button class="video__button video__button--play pillars-animation__button pillars-animation__button--sell" data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-play"><svg class="icon video__icon" aria-hidden="true" focusable="false"> <use xlink:href="#modules-play"></use> </svg><span class="visuallyhidden">Play video</span></button>
+                                    <button class="video__button video__button--pause pillars-animation__button pillars-animation__button--sell" data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-pause"><svg class="icon video__icon" aria-hidden="true" focusable="false"> <use xlink:href="#modules-pause"></use> </svg><span class="visuallyhidden">Pause video</span></button>
+                                    <div class="video__button video__button--loading pillars-animation__button pillars-animation__button--sell" role="alert"><span class="visuallyhidden">Video is loading</span></div><span class="visuallyhidden" id="Video-febc">To help show all the ways you can sell with Shopify, there’s a
+    slow animation of three different images: a sleek, white chair
+    being sold on an ecommerce website, the same chair appearing on
+    an online market place, and an in-store transaction using POS.</span></div>
+                                <div class="pillars-animation pillars-animation__sell display--mobile video js-video--custom-controls js-video--loaded" aria-describedby="Video-0364" aria-label="Video">
+                                    <div class="video__video-container"><video muted="muted" loop="loop" playsinline="playsinline" data-autoplay="true" data-lazyload="true" data-poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/poster-sell-9a9415a0989001f51a3870a065e65b4cfaa5dbaa250288f60a7e5b6ba4f22394.jpg"
+                                            data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-toggle" class="video__video" autoplay="" poster="https://cdn.shopify.com/shopifycloud/brochure/assets/home/poster-sell-9a9415a0989001f51a3870a065e65b4cfaa5dbaa250288f60a7e5b6ba4f22394.jpg"><source data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-mobile-7c7c04d7b8a7d34bb86a5d443635f49a24483551a7e9a951c43ae9f2dd6344e7.webm" type="video/webm" src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-mobile-7c7c04d7b8a7d34bb86a5d443635f49a24483551a7e9a951c43ae9f2dd6344e7.webm"><source data-src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-mobile-50fe545f965059facbf5ae85f7b663d91ed337f61083803e293ca3d9d0851f75.mp4" type="video/mp4" src="https://cdn.shopify.com/shopifycloud/brochure/assets/home/sell-animation-mobile-50fe545f965059facbf5ae85f7b663d91ed337f61083803e293ca3d9d0851f75.mp4"></video></div>
+                                    <button class="video__button video__button--play pillars-animation__button pillars-animation__button--sell" data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-play"><svg class="icon video__icon" aria-hidden="true" focusable="false"> <use xlink:href="#modules-play"></use> </svg><span class="visuallyhidden">Play video</span></button>
+                                    <button class="video__button video__button--pause pillars-animation__button pillars-animation__button--sell" data-event-page="homepage" data-event-category="homepage" data-event-action="sell" data-event-label="video-pause"><svg class="icon video__icon" aria-hidden="true" focusable="false"> <use xlink:href="#modules-pause"></use> </svg><span class="visuallyhidden">Pause video</span></button>
+                                    <div class="video__button video__button--loading pillars-animation__button pillars-animation__button--sell" role="alert"><span class="visuallyhidden">Video is loading</span></div><span class="visuallyhidden" id="Video-0364">To help show all the ways you can sell with Shopify, there’s a
+    slow animation of three different images: a sleek, white chair
+    being sold on an ecommerce website, the same chair appearing on
+    an online market place, and an in-store transaction using POS.</span></div>
                             </div>
                         </div>
                         <div class="block pillars__block pillars__block--manage">
@@ -803,13 +847,13 @@
                 </div>
             </section>
             <section class="section background-green-80" style="
-          background-color: #293246;
-      ">
+              background-color: #293246;
+          ">
                 <div class="grid">
                     <div class="grid__item">
                         <section class="section" style="
-          padding-bottom: 3em;
-      ">
+              padding-bottom: 3em;
+          ">
                             <div class="section-heading section-heading--mobile-up-align-left">
                                 <h2 class="section-heading__heading heading--1 section-heading__heading--regular color-white">Big UX template library</h2>
                                 <div class="grid">
@@ -916,16 +960,16 @@
                                             data-srcset="https://instagram.fhan3-2.fna.fbcdn.net/v/t51.2885-15/sh0.08/e35/s640x640/245640856_1895382987311359_3775179292834021995_n.jpg?_nc_ht=instagram.fhan3-2.fna.fbcdn.net&amp;_nc_cat=107&amp;_nc_ohc=YARkX5zaThcAX-vpDZ7&amp;edm=APU89FABAAAA&amp;ccb=7-4&amp;oh=00_AT9w6XlzdgstoOnJ0M808yh36vFUtCf1Fpw4txNJB0Cg4Q&amp;oe=61C08680&amp;_nc_sid=86f79a"></picture>
                                 </div>
                                 <div class="featured-testimonial__content text-center" style="
-          background: #283247;
-      ">
+              background: #283247;
+          ">
                                     <blockquote class="featured-testimonial__quote-wrapper gutter-bottom">
                                         <p class="featured-testimonial__quote" style="
-          font-size: 1.75em;
-      ">“There was only one missing piece in Shopify, flexible page builder. Thanks to Beae, it is now solved. One can easily customise their pages without editing the code and spending tons of hours into it. Must have
+              font-size: 1.75em;
+          ">“There was only one missing piece in Shopify, flexible page builder. Thanks to Beae, it is now solved. One can easily customise their pages without editing the code and spending tons of hours into it. Must have
                                             app for all merchants.”</p><span class="image lazyload-image gutter-bottom" style="max-width: 146px; max-height: 69px;"><span class="lazyload-image__placeholder" style="padding-bottom: 27.2603%;"><img alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/s/files/1/0533/0488/5430/files/logo-hupret.svg?v=3618506285543939767" class=" ls-is-cached lazyloaded" sizes="100vw" srcset="https://cdn.shopify.com/s/files/1/0533/0488/5430/files/logo-hupret.svg?v=3618506285543939767" style="
-          filter: invert(0.85);
-          height: 40px;
-      "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/testimonials/logo-cee-cees-closet-small-bbc2baa973603b707c4d17c8ac77b35b9097174340d500cc757354a7d868c456.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/testimonials/logo-cee-cees-closet-large-006c2df10e19efd9878da9db6faa20b4164dd44f28a896735652ece6b715374b.png?quality=50 2x" alt="" /></noscript></span></span>
+              filter: invert(0.85);
+              height: 40px;
+          "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/testimonials/logo-cee-cees-closet-small-bbc2baa973603b707c4d17c8ac77b35b9097174340d500cc757354a7d868c456.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/testimonials/logo-cee-cees-closet-large-006c2df10e19efd9878da9db6faa20b4164dd44f28a896735652ece6b715374b.png?quality=50 2x" alt="" /></noscript></span></span>
                                         <cite class="featured-testimonial__citation">Aasim Talha | CEO Hupret</cite>
                                     </blockquote>
                                 </div>
@@ -934,88 +978,104 @@
                             <ul class="logo-soup">
                                 <li class="logo-soup__list-item"><img class="image logo-soup__image lazyloaded" alt="Cee Cee's Closet" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-small-1d6b515579404482342748f0b67ff6e09836a47b648250d8d1b00e2a24b29faa.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-large-72b3934735d6d9c80ab6e49bb691f0a499d3796886616ef7730d992b64348ca6.png?quality=50 2x"
                                         sizes="100vw" srcset="https://cdn.shopify.com/s/files/1/0533/0488/5430/files/logo-hupret.svg?v=3618506285543939767" style="
-          height: 40px;
-          filter: saturate(0);
-      "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-small-1d6b515579404482342748f0b67ff6e09836a47b648250d8d1b00e2a24b29faa.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-large-72b3934735d6d9c80ab6e49bb691f0a499d3796886616ef7730d992b64348ca6.png?quality=50 2x" alt="Cee Cee&#39;s Closet" class="image" /></noscript></li>
+              height: 40px;
+              filter: saturate(0);
+          "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-small-1d6b515579404482342748f0b67ff6e09836a47b648250d8d1b00e2a24b29faa.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/cee-cees-closet-large-72b3934735d6d9c80ab6e49bb691f0a499d3796886616ef7730d992b64348ca6.png?quality=50 2x" alt="Cee Cee&#39;s Closet" class="image" /></noscript></li>
                                 <li class="logo-soup__list-item"><img class="image logo-soup__image lazyloaded" alt="Nalata Nalata" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-small-4d74934e4674eca69a3015a94f62591cefb2ee0f9dc3d55cb8c7c64dcd710670.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-large-3add77fd7a7030bfc5160c8c9e109263e30e706ece8872324f05ca87b9f9c058.png?quality=50 2x"
                                         sizes="100vw" srcset="https://cdn.shopify.com/s/files/1/0612/1055/8705/files/Web_Social_Icon_cebaac28-39e1-4d8b-8d46-92bae05e6f30_130x@2x.png?v=1638176130" style="
-          height: 40px;
-          filter: saturate(0);
-      "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-small-4d74934e4674eca69a3015a94f62591cefb2ee0f9dc3d55cb8c7c64dcd710670.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-large-3add77fd7a7030bfc5160c8c9e109263e30e706ece8872324f05ca87b9f9c058.png?quality=50 2x" alt="Nalata Nalata" class="image" /></noscript></li>
+              height: 40px;
+              filter: saturate(0);
+          "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-small-4d74934e4674eca69a3015a94f62591cefb2ee0f9dc3d55cb8c7c64dcd710670.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/nalata-nalata-large-3add77fd7a7030bfc5160c8c9e109263e30e706ece8872324f05ca87b9f9c058.png?quality=50 2x" alt="Nalata Nalata" class="image" /></noscript></li>
                                 <li class="logo-soup__list-item"><img class="image logo-soup__image lazyloaded" alt="Kirrin Finch" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-small-b85f000eede1716da6a496a95ff3836b300b5beaa57617ab834332b675ede0d6.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-large-5eac21f691ca33865f5379e3c929f0455f2c60eac456acde2ecb5e7e8cf0b6b6.png?quality=50 2x"
                                         sizes="100vw" srcset="https://cdn.shopify.com/s/files/1/0604/8602/5458/files/Planners-Avenue-Cute-Stationery-Australia-WEB-Logo_280x@2x.png?v=1634298552" style="
-          height: 40px;
-          filter: saturate(0);
-      "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-small-b85f000eede1716da6a496a95ff3836b300b5beaa57617ab834332b675ede0d6.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-large-5eac21f691ca33865f5379e3c929f0455f2c60eac456acde2ecb5e7e8cf0b6b6.png?quality=50 2x" alt="Kirrin Finch" class="image" /></noscript></li>
+              height: 40px;
+              filter: saturate(0);
+          "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-small-b85f000eede1716da6a496a95ff3836b300b5beaa57617ab834332b675ede0d6.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/kirrin-finch-large-5eac21f691ca33865f5379e3c929f0455f2c60eac456acde2ecb5e7e8cf0b6b6.png?quality=50 2x" alt="Kirrin Finch" class="image" /></noscript></li>
                                 <li class="logo-soup__list-item"><img class="image logo-soup__image lazyloaded" alt="Tokyo Bike" data-sizes="100vw" data-srcset="//cdn.shopify.com/s/files/1/0580/8760/4415/files/Phoenix-logo-20202_190x.png?v=1626466538 1x,//cdn.shopify.com/s/files/1/0580/8760/4415/files/Phoenix-logo-20202_190x@2x.png?v=1626466538 2x"
                                         sizes="100vw" srcset="https://cdn.shopify.com/s/files/1/0567/6931/4967/files/logo_150x@2x.png?v=1623910375" style="
-          height: 40px;
-          filter: saturate(0);
-      "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-small-2295b7e1d183bae07eb36ad83451ec624cfe61bbec39e85877d40600f22115b2.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-large-e665c13f78f1ff857c63acfe106003071ab5789a56d98e06036cd552a11afb7c.png?quality=50 2x" alt="Tokyo Bike" class="image" /></noscript></li>
+              height: 40px;
+              filter: saturate(0);
+          "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-small-2295b7e1d183bae07eb36ad83451ec624cfe61bbec39e85877d40600f22115b2.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/tokyo-bike-large-e665c13f78f1ff857c63acfe106003071ab5789a56d98e06036cd552a11afb7c.png?quality=50 2x" alt="Tokyo Bike" class="image" /></noscript></li>
                                 <li class="logo-soup__list-item"><img class="image logo-soup__image lazyloaded" alt="Meso Goods" data-sizes="100vw" data-srcset="https://cdn.shopify.com/s/files/1/0569/0055/0820/files/365fury_Logo_410x.png?v=1627960666" sizes="100vw" srcset="https://cdn.shopify.com/s/files/1/0569/0055/0820/files/365fury_Logo_410x.png?v=1627960666"
                                         style="
-          height: 40px;
-          filter: saturate(0);
-      "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-small-d5c7243d2e6e1e1677b5648f1e672701476c5df7d516a131013a46c7721c98b4.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-large-3c91df696ae24868cf3158a03b219ad3d59e1cc79cd6bcfd5e00e4caf24f1590.png?quality=50 2x" alt="Meso Goods" class="image" /></noscript></li>
+              height: 40px;
+              filter: saturate(0);
+          "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-small-d5c7243d2e6e1e1677b5648f1e672701476c5df7d516a131013a46c7721c98b4.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/meso-goods-large-3c91df696ae24868cf3158a03b219ad3d59e1cc79cd6bcfd5e00e4caf24f1590.png?quality=50 2x" alt="Meso Goods" class="image" /></noscript></li>
                                 <li class="logo-soup__list-item"><img class="image logo-soup__image lazyloaded" alt="Coco and Breezy" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-small-3cc3c1f7d5c50000624adec29ce71dae453821ce3813f0e34b2d3351b5f2b4b2.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-large-e7ffaba59d09afb9ecb7e12463cb72920817438c900b887209608c94fc9c9ec0.png?quality=50 2x"
                                         sizes="100vw" srcset="https://cdn.shopify.com/s/files/1/0570/7989/0110/files/logo_transparent_135x@2x.png?v=1629353473" style="
-          height: 40px;
-          filter: saturate(0);
-      "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-small-3cc3c1f7d5c50000624adec29ce71dae453821ce3813f0e34b2d3351b5f2b4b2.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-large-e7ffaba59d09afb9ecb7e12463cb72920817438c900b887209608c94fc9c9ec0.png?quality=50 2x" alt="Coco and Breezy" class="image" /></noscript></li>
+              height: 40px;
+              filter: saturate(0);
+          "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-small-3cc3c1f7d5c50000624adec29ce71dae453821ce3813f0e34b2d3351b5f2b4b2.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/coco-and-breezy-large-e7ffaba59d09afb9ecb7e12463cb72920817438c900b887209608c94fc9c9ec0.png?quality=50 2x" alt="Coco and Breezy" class="image" /></noscript></li>
                                 <li class="logo-soup__list-item"><img class="image logo-soup__image lazyloaded" alt="Brooklyn Museum" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-small-3cbca35150e701329098cd95f21ec9388886479a5f781a515466b59d80d7b5bb.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-large-14623fdd62a9c87241ee2d84b3e15feea4b30061839d0e20d1bd38a1d847286b.png?quality=50 2x"
                                         sizes="100vw" srcset="https://cdn.shopify.com/s/files/1/0426/0341/3662/files/D4DDDDF5-9992-426E-9056-BE09955DC30C_220x@2x.jpg?v=1637570490" style="
-          height: 40px;
-          filter: saturate(0);
-      "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-small-3cbca35150e701329098cd95f21ec9388886479a5f781a515466b59d80d7b5bb.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-large-14623fdd62a9c87241ee2d84b3e15feea4b30061839d0e20d1bd38a1d847286b.png?quality=50 2x" alt="Brooklyn Museum" class="image" /></noscript></li>
+              height: 40px;
+              filter: saturate(0);
+          "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-small-3cbca35150e701329098cd95f21ec9388886479a5f781a515466b59d80d7b5bb.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/brooklyn-museum-large-14623fdd62a9c87241ee2d84b3e15feea4b30061839d0e20d1bd38a1d847286b.png?quality=50 2x" alt="Brooklyn Museum" class="image" /></noscript></li>
                                 <li class="logo-soup__list-item"><img class="image logo-soup__image lazyloaded" alt="Adore Me" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-small-b4e6488ccabc61cdaaf92d931a5b8a591a35d55982a796a5b582924a9563afb1.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-large-7a7f06a74d88d7a5e019800da52ccc54334c96159f3761173c0c5cd37e03e38d.png?quality=50 2x"
                                         sizes="100vw" srcset="https://cdn.shopify.com/s/files/1/0551/4513/6280/files/That_Lincoln_Life_Shopify_ec00ee90-dce4-4811-9dc9-97ccec0d8008_240x.png?v=1616437599" style="
-          height: 40px;
-          filter: saturate(0);
-      "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-small-b4e6488ccabc61cdaaf92d931a5b8a591a35d55982a796a5b582924a9563afb1.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-large-7a7f06a74d88d7a5e019800da52ccc54334c96159f3761173c0c5cd37e03e38d.png?quality=50 2x" alt="Adore Me" class="image" /></noscript></li>
+              height: 40px;
+              filter: saturate(0);
+          "><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-small-b4e6488ccabc61cdaaf92d931a5b8a591a35d55982a796a5b582924a9563afb1.png 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/logo-soup/adore-me-large-7a7f06a74d88d7a5e019800da52ccc54334c96159f3761173c0c5cd37e03e38d.png?quality=50 2x" alt="Adore Me" class="image" /></noscript></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="section section--help background-yellow-0 js-waypoint-track" data-track-name="support">
+
+            <section class="section start__support background-yellow-0">
                 <div class="grid">
-                    <div class="grid__item grid__item--tablet-up-two-thirds grid__item--desktop-up-half">
-                        <div class="section--help__content">
-                            <div class="section-heading section-heading--mobile-up-align-left">
-                                <h2 class="section-heading__heading heading--1 section--help__heading section-heading__heading--regular">Follow the Latest Ecommerce News</h2>
-                            </div>
-                            <div class="grid grid--equal-height">
-                                <div class="grid__item grid__item--tablet-up-half">
-                                    <div class="block">
-                                        <h3 class="block__heading heading--4">Shopify support</h3>
-                                        <p class="block__content">Contact support 24/7, whether you’re troubleshooting issues or looking for business advice.</p>
-                                        <p class="block__cta"><a data-event-page="homepage" data-event-category="homepage" data-event-action="support" data-event-label="contact-support" class="link link--secondary" href="/contact">Contact support&nbsp;<span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true" focusable="false"> <use xlink:href="#modules-arrow-right"></use> </svg></span></a></p>
+                    <div class="grid__item">
+                        <div class="section-heading">
+                            <h2 class="section-heading__heading heading--2">Follow the latest Ecommerce news</h2>
+                        </div>
+                        <div class="start__card-group">
+                            <a class="start__card background-white" href="/contact">
+                                <div class="block gutter-bottom--reset">
+                                    <span class="image lazyload-image start__card-image block__image" style="max-width: 324px; max-height: 244px;"><span class="lazyload-image__placeholder" style="padding-bottom: 75.3086%"><img alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/support-7db97ec397af101fd136b2e4172cc74adbfe2b30bd14071345b81c8705173278.svg" class=" lazyloaded" sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/support-7db97ec397af101fd136b2e4172cc74adbfe2b30bd14071345b81c8705173278.svg"><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/support-7db97ec397af101fd136b2e4172cc74adbfe2b30bd14071345b81c8705173278.svg" alt="" /></noscript></span></span>
+
+                                    <div class="start-resources__heading-container">
+                                        <h3 class="block__heading heading--4 heading--5">Award-winning support</h3>
+
+                                        <p class="block__content start-resources__card-cta">Get the help you want with 24/7 support—before, during, and after your&nbsp;trial.</p>
                                     </div>
                                 </div>
-                                <div class="grid__item grid__item--tablet-up-half">
-                                    <div class="block">
-                                        <h3 class="block__heading heading--4">Shopify App Store</h3>
-                                        <p class="block__content">Add features and functionality to your business with 6,000+ apps that integrate directly with Shopify.</p>
-                                        <p class="block__cta"><a data-event-page="homepage" data-event-category="homepage" data-event-action="support" data-event-label="app-store" class="link link--secondary" href="https://apps.shopify.com/?itcat=home&amp;itterm=app-store">Visit the Shopify App Store&nbsp;<span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true" focusable="false"> <use xlink:href="#modules-arrow-right"></use> </svg></span></a></p>
+                            </a>
+                            <a class="start__card background-white" href="/contact">
+                                <div class="block gutter-bottom--reset">
+                                    <span class="image lazyload-image start__card-image block__image" style="max-width: 324px; max-height: 244px;"><span class="lazyload-image__placeholder" style="padding-bottom: 75.3086%"><img alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/support-7db97ec397af101fd136b2e4172cc74adbfe2b30bd14071345b81c8705173278.svg" class=" lazyloaded" sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/support-7db97ec397af101fd136b2e4172cc74adbfe2b30bd14071345b81c8705173278.svg"><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/support-7db97ec397af101fd136b2e4172cc74adbfe2b30bd14071345b81c8705173278.svg" alt="" /></noscript></span></span>
+
+                                    <div class="start-resources__heading-container">
+                                        <h3 class="block__heading heading--4 heading--5">Award-winning support</h3>
+
+                                        <p class="block__content start-resources__card-cta">Get the help you want with 24/7 support—before, during, and after your&nbsp;trial.</p>
                                     </div>
                                 </div>
-                                <div class="grid__item grid__item--tablet-up-half">
-                                    <div class="block section--help__last-block">
-                                        <h3 class="block__heading heading--4">Shopify Experts Marketplace</h3>
-                                        <p class="block__content">Hire a Shopify expert to help you with everything from store setup to SEO.</p>
-                                        <p class="block__cta"><a data-event-page="homepage" data-event-category="homepage" data-event-action="support" data-event-label="experts" class="link link--secondary" href="https://experts.shopify.com/?itcat=home&amp;itterm=experts">Explore the Shopify Experts Marketplace&nbsp;<span class="link__arrow"><svg class="icon link__arrow-inner" aria-hidden="true" focusable="false"> <use xlink:href="#modules-arrow-right"></use> </svg></span></a></p>
+                            </a>
+                            <a class="start__card background-white" href="https://help.shopify.com/en">
+                                <div class="block gutter-bottom--reset">
+                                    <span class="image lazyload-image start__card-image block__image" style="max-width: 325px; max-height: 245px;"><span class="lazyload-image__placeholder" style="padding-bottom: 75.3846%"><img alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/help-center-72961bc45de5b8eebe5863e983ab2dc3bb080b35bda1921e095deee78018aa7c.svg" class=" lazyloaded" sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/help-center-72961bc45de5b8eebe5863e983ab2dc3bb080b35bda1921e095deee78018aa7c.svg"><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/help-center-72961bc45de5b8eebe5863e983ab2dc3bb080b35bda1921e095deee78018aa7c.svg" alt="" /></noscript></span></span>
+
+                                    <div class="start-resources__heading-container">
+                                        <h3 class="block__heading heading--4 heading--5">Help Center</h3>
+
+                                        <p class="block__content start-resources__card-cta">Search for useful articles and advice about starting a&nbsp;business.</p>
                                     </div>
                                 </div>
-                            </div>
+                            </a>
+                            <a class="start__card background-white" href="https://help.shopify.com/en">
+                                <div class="block gutter-bottom--reset">
+                                    <span class="image lazyload-image start__card-image block__image" style="max-width: 325px; max-height: 245px;"><span class="lazyload-image__placeholder" style="padding-bottom: 75.3846%"><img alt="" data-sizes="100vw" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/help-center-72961bc45de5b8eebe5863e983ab2dc3bb080b35bda1921e095deee78018aa7c.svg" class=" lazyloaded" sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/help-center-72961bc45de5b8eebe5863e983ab2dc3bb080b35bda1921e095deee78018aa7c.svg"><noscript><img sizes="100vw" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/pillar/start/help-center-72961bc45de5b8eebe5863e983ab2dc3bb080b35bda1921e095deee78018aa7c.svg" alt="" /></noscript></span></span>
+
+                                    <div class="start-resources__heading-container">
+                                        <h3 class="block__heading heading--4 heading--5">Help Center</h3>
+
+                                        <p class="block__content start-resources__card-cta">Search for useful articles and advice about starting a&nbsp;business.</p>
+                                    </div>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <picture class="picture picture--cover section--help__picture">
-                    <source data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@desktop-9a31a38edab7cba3389c5d71eccb81ab32d24e0eeb40c8eac3568d98bc179e1e.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@desktop-2x-e6e757c00c83bd892a2504feaa929ed30662ef648bf0b13d900154cd924a902d.jpg 2x"
-                        media="(min-width: 1080px)" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@desktop-9a31a38edab7cba3389c5d71eccb81ab32d24e0eeb40c8eac3568d98bc179e1e.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@desktop-2x-e6e757c00c83bd892a2504feaa929ed30662ef648bf0b13d900154cd924a902d.jpg 2x">
-                    <source data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@tablet-a9195c3e50337c6b9adced78c28995878aad5622c8bff25531aa772501e8c3c4.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@tablet-2x-bf2d10d538d0c91b9dd9c41bc8d69e6171fb9495fab3e2613095e476399f3798.jpg 2x"
-                        media="(min-width: 750px)" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@tablet-a9195c3e50337c6b9adced78c28995878aad5622c8bff25531aa772501e8c3c4.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@tablet-2x-bf2d10d538d0c91b9dd9c41bc8d69e6171fb9495fab3e2613095e476399f3798.jpg 2x"><img class=" lazyloaded" data-srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@mobile-d425d91a15904a11c2c968cbc5d0365bc1db3ddb0b3c1e6d8582fa9138178084.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@mobile-2x-900e50e62d4c042eea142d1a472c8d22e37f142dc07c40a9ab13510210d177c9.jpg 2x"
-                        alt="" srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@mobile-d425d91a15904a11c2c968cbc5d0365bc1db3ddb0b3c1e6d8582fa9138178084.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@mobile-2x-900e50e62d4c042eea142d1a472c8d22e37f142dc07c40a9ab13510210d177c9.jpg 2x"></picture><noscript><picture class="picture picture--cover section--help__picture"><source srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@desktop-9a31a38edab7cba3389c5d71eccb81ab32d24e0eeb40c8eac3568d98bc179e1e.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@desktop-2x-e6e757c00c83bd892a2504feaa929ed30662ef648bf0b13d900154cd924a902d.jpg 2x" media="(min-width: 1080px)" /><source srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@tablet-a9195c3e50337c6b9adced78c28995878aad5622c8bff25531aa772501e8c3c4.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@tablet-2x-bf2d10d538d0c91b9dd9c41bc8d69e6171fb9495fab3e2613095e476399f3798.jpg 2x" media="(min-width: 750px)" /><img srcset="https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@mobile-d425d91a15904a11c2c968cbc5d0365bc1db3ddb0b3c1e6d8582fa9138178084.jpg 1x, https://cdn.shopify.com/shopifycloud/brochure/assets/home/help@mobile-2x-900e50e62d4c042eea142d1a472c8d22e37f142dc07c40a9ab13510210d177c9.jpg 2x" alt="" /></picture></noscript>
             </section>
             <section class="section signup-footer js-waypoint-track" data-track-name="footer-signup">
                 <div class="grid">
@@ -1229,7 +1289,7 @@
                         </ul>
                         <div class="footer-country-select">
                             <div class="popover-wrapper js-country-select footer-country-select__popover" data-position="top" data-align="right"><button type="button" class="popover__trigger footer-country-select__trigger" data-ga-event="Footer" data-ga-label="CountrySelector" aria-expanded="false" aria-controls="Popover2" aria-current="location"><h2 class="visuallyhidden">Change your country or region.</h2><svg class="icon footer-country-select__globe" aria-hidden="true" focusable="false"> <use xlink:href="#spot-global"></use> </svg><span class="footer-country-select__text">USA</span><svg class="icon footer-country-select__arrow" aria-hidden="true" focusable="false"> <use xlink:href="#modules-nav-arrow-down"></use> </svg></button>
-                                <div class="popover popover--position-top popover--align-center" id="Popover2">
+                                <div class="popover popover--position-top popover--align-right" id="Popover2">
                                     <div class="popover__content">
                                         <h3 class="footer-country-select__heading" id="country-select-heading">Country/region</h3>
                                         <ul class="footer-country-select__content" role="list" aria-labelledby="country-select-heading">
@@ -1512,6 +1572,13 @@
         <loom-shadow classname="resolved"></loom-shadow>
     </loom-container><iframe id="__JSBridgeIframe_1.0__" style="display: none;"></iframe><iframe id="__JSBridgeIframe_SetResult_1.0__" style="display: none;"></iframe><iframe id="__JSBridgeIframe__" style="display: none;"></iframe><iframe id="__JSBridgeIframe_SetResult__"
         style="display: none;"></iframe>
+
+    <loom-container id="lo-engage-ext-container">
+        <loom-shadow classname="resolved"></loom-shadow>
+    </loom-container>
+    <loom-container id="lo-companion-container">
+        <loom-shadow classname="resolved"></loom-shadow>
+    </loom-container>
 </body>
 <loom-container id="lo-engage-ext-container">
     <loom-shadow classname="resolved"></loom-shadow>
